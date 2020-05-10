@@ -1,0 +1,79 @@
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    max-width: 1040px;
+}
+
+
+header{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+
+.logo{
+    color: #FF385C;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 510px;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card-img{
+    margin: 0;
+    padding: 0;
+ }
+ 
+.card-img img{
+    border-radius: 3px;
+    width: 255px;
+}
+
+.card-body{
+    width: 250px;
+    padding: 10px 0 10px 10px;
+}
+
+
+.card-price{
+    text-align: right;
+}
+
+.rodape{
+    margin: 25px 0 0 0;
+    padding: 15px 0;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    color: black;
+    height: 50px;
+}
+
+.rodape img{
+    vertical-align: middle;
+    width: 25px;
+    margin: 0 8px;
+}
+
